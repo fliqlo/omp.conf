@@ -1,1 +1,7 @@
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
+
+/home/.config/fastfetch/
+fastfetch -c "/home/brayan/.config/fastfetch/config.jsonc"
+
+mkdir "term-themes" (user page)
+eval "$(oh-my-posh init bash --config ~/term-themes/brayan.omp.json)"
